@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `hello`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `hello` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `ulr` varchar(255) NOT NULL,
+  `url` varchar(255) NOT NULL,
   `comment` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
